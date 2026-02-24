@@ -12,6 +12,10 @@
 
 Mat Model Lab is a comprehensive material constitutive model tool for post-processing, visualization, and FEA code generation of material mechanical properties. The software provides a modern graphical interface and supports elastic constant analysis for various crystal types.
 
+<div align="center">
+<img src="assets/screenshot.png" alt="Mat Model Lab GUI" width="800">
+</div>
+
 ## Modules
 
 | Module              | Description                          | Status       |

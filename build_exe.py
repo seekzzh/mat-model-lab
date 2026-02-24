@@ -34,9 +34,8 @@ def build_pyinstaller():
     print("Starting PyInstaller build...")
     
     separator = ";" if os.name == 'nt' else ":"
-    # Use absolute path for assets to be safe
-    assets_src = os.path.abspath("assets")
-    assets = f"{assets_src}{separator}assets"
+    # Use relative path for assets to avoid issues with spaces in path
+    assets = f"assets{separator}assets"
     
     cmd = [
         "pyinstaller",
@@ -44,8 +43,8 @@ def build_pyinstaller():
         "--noconfirm",
         "--windowed",
         "--onefile",
-        f"--add-data={assets}",
-        f"--paths={os.getcwd()}",
+        "--add-data", assets,
+        "--paths", ".",
         # Core modules
         "--hidden-import=core",
         "--hidden-import=core.Young_3D",
@@ -53,6 +52,7 @@ def build_pyinstaller():
         "--hidden-import=core.StableofMechanical",
         # Utils modules
         "--hidden-import=mml_utils",
+        "--hidden-import=mml_utils.paths",
         "--hidden-import=mml_utils.data_io",
         "--hidden-import=mml_utils.report_generator",
         "--hidden-import=mml_utils.material_db",
