@@ -1,0 +1,45 @@
+# Parameters for {{material_name}}
+# Crystal Type: {{crystal_type}}
+# Exported from Mat Model Lab
+
+C11 {{C11}} [GPa] "Elastic Constant C11"
+C12 {{C12}} [GPa] "Elastic Constant C12"
+C13 {{C13}} [GPa] "Elastic Constant C13"
+C14 {{C14}} [GPa] "Elastic Constant C14"
+C15 {{C15}} [GPa] "Elastic Constant C15"
+C16 {{C16}} [GPa] "Elastic Constant C16"
+
+C21 {{C21}} [GPa] "Elastic Constant C21"
+C22 {{C22}} [GPa] "Elastic Constant C22"
+C23 {{C23}} [GPa] "Elastic Constant C23"
+C24 {{C24}} [GPa] "Elastic Constant C24"
+C25 {{C25}} [GPa] "Elastic Constant C25"
+C26 {{C26}} [GPa] "Elastic Constant C26"
+
+C31 {{C31}} [GPa] "Elastic Constant C31"
+C32 {{C32}} [GPa] "Elastic Constant C32"
+C33 {{C33}} [GPa] "Elastic Constant C33"
+C34 {{C34}} [GPa] "Elastic Constant C34"
+C35 {{C35}} [GPa] "Elastic Constant C35"
+C36 {{C36}} [GPa] "Elastic Constant C36"
+
+C41 {{C41}} [GPa] "Elastic Constant C41"
+C42 {{C42}} [GPa] "Elastic Constant C42"
+C43 {{C43}} [GPa] "Elastic Constant C43"
+C44 {{C44}} [GPa] "Elastic Constant C44"
+C45 {{C45}} [GPa] "Elastic Constant C45"
+C46 {{C46}} [GPa] "Elastic Constant C46"
+
+C51 {{C51}} [GPa] "Elastic Constant C51"
+C52 {{C52}} [GPa] "Elastic Constant C52"
+C53 {{C53}} [GPa] "Elastic Constant C53"
+C54 {{C54}} [GPa] "Elastic Constant C54"
+C55 {{C55}} [GPa] "Elastic Constant C55"
+C56 {{C56}} [GPa] "Elastic Constant C56"
+
+C61 {{C61}} [GPa] "Elastic Constant C61"
+C62 {{C62}} [GPa] "Elastic Constant C62"
+C63 {{C63}} [GPa] "Elastic Constant C63"
+C64 {{C64}} [GPa] "Elastic Constant C64"
+C65 {{C65}} [GPa] "Elastic Constant C65"
+C66 {{C66}} [GPa] "Elastic Constant C66"

@@ -1,0 +1,16 @@
+# Mat Model Lab Dependencies
+
+# Core scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.5.0
+
+# GUI framework (PyQt6 for Python 3.12+)
+PyQt6>=6.4.0
+
+# Data processing
+pandas>=1.4.0
+openpyxl>=3.0.0
+
+# Report generation
+python-docx>=1.0.0
